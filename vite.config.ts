@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Muskan-Portfolio-react-vite/', 
+  base: '/Muskan-devfolio/', 
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
