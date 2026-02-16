@@ -50,7 +50,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
           
           <div className="hidden md:block">
             <nav className="ml-10 flex items-center space-x-8">
-              {['About', 'Education', 'Projects', 'Certifications', 'Contact'].map((item) => (
+              {['About', 'Education', 'Projects', 'Experience', 'Contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}
@@ -106,7 +106,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
           }`}
         >
           <nav className="flex flex-col space-y-4 p-4">
-            {['About', 'Education', 'Projects', 'Certifications', 'Contact'].map((item) => (
+            {['About', 'Education', 'Projects', 'Experience', 'Contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}

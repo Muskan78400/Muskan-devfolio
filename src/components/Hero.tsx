@@ -49,7 +49,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
             <span className="relative inline-block">
               <span className={`relative z-10 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
-                Vrinda Parmar
+                Muskan
               </span>
               <span 
                 className="absolute -bottom-2 left-0 right-0 h-3 bg-blue-500 opacity-30 rounded"
@@ -59,14 +59,13 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
           </h1>
           
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-light mb-8 text-blue-500">
-            Software Engineer
+            Full Stack Developer
           </h2>
           
           <p className={`text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed ${
             darkMode ? 'text-gray-300' : 'text-gray-700'
           }`}>
-            I create elegant solutions to complex problems, specializing in web development
-            and user-centered design. Welcome to my portfolio.
+            Welcome to my portfolio! I create elegant and efficient web solutions using React and Vite, focusing on clean code, responsive design, and user-centered experiences. Explore my projects to see how I turn complex problems into intuitive, interactive web applications.
           </p>
           
           <div className="flex flex-wrap justify-center gap-4">
@@ -74,7 +73,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
               href="#contact" 
               className="px-8 py-3 text-base font-medium rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors duration-300"
             >
-              Get in Touch
+              Get In Touch
             </a>
 
             <a 
@@ -90,7 +89,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
 
             {/* ✅ Download Resume Button */}
             <a
-              href="/vrinda_parmar_resume (2).pdf"
+              href="/Muskan-Resume.pdf"
               download
               className="flex items-center gap-2 px-8 py-3 text-base font-medium rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-300"
             >

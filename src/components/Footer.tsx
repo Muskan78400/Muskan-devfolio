@@ -20,7 +20,7 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-              &copy; {new Date().getFullYear()} Vrinda Parmar. All rights reserved.
+              &copy; {new Date().getFullYear()} Muskan Aggarwal. All rights reserved.
             </p>
           </div>
           

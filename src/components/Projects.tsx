@@ -4,6 +4,7 @@ import voyage from '../Assets/voyage.png';
 import empl from '../Assets/empl.png';
 
 
+
 interface ProjectsProps {
   darkMode: boolean;
 }
@@ -24,53 +25,27 @@ interface Project {
 const projectsData: Project[] = [
   {
     id: 1,
-    title: 'Voyage Vista',
-    description: 'MERN stack-based travel planner integrating Google Gemini AI for generating personalized itineraries. Implemented features such as hotel booking, categorized travel suggestions, PDF export, enhancing user experience and automation.',
+    title: 'Receipe Maker',
+    description: 'Developed a responsive web-based Recipe Maker application that allows users to create, view, edit, and delete receipes',
     image: voyage,
-    tags: ['React', 'Node.js', 'MongoDB', 'Express', 'Google Gemini AI'],
+    tags: ['HTML', 'CSS', 'Javascript'],
     links: {
-      demo: 'https://voyage-vista-rho.vercel.app/',
-      github: 'https://github.com/vrinda-parmar/TravelPlanner',
+      demo: 'https://muskan78400.github.io/Reciepe-Maker/',
+      github: 'https://github.com/Muskan78400/Reciepe-Maker',
     }
   },
   {
     id: 2,
-    title: 'Employee Payroll Management',
-    description: 'Payroll management system using Python and Tkinter, enabling employee salary calculations, receipt generation, and CRUD (create, read, update, delete) operations. Designed for efficiency and ease of use in managing payroll records.',
+    title: 'Adventure Game',
+    description: 'Built an interactive browser-based Adventure Game where users navigate through story levels with choices and outcomes.',
     image: empl,
-    tags: ['Python', 'Tkinter'],
+    tags: ['HTML','CSS' ,'Javascript'],
     links: {
-      github: 'https://github.com/vrinda-parmar/employee-payroll-software',
+      live: 'http://127.0.0.1:5500/Adventure%20Game/files/index.html',
     }
   },
+
 ];
-
-const clientProjectsData: Project[] = [
-  {
-    id: 1,
-    title: 'Tune Craft Website',
-    description:
-      'Developed and deployed a business website using Hostinger AI Builder. Customized SEO keywords, managed hosting, domain configuration, and optimized site performance for better online visibility.',
-    image: '/tunecraft.png', // ✅ make sure this image is inside public folder
-    tags: ['SEO', 'Hosting', 'AI Builder'],
-    links: {
-      live: 'https://tunecraftrentaldressbhiwani.com/', // replace with actual live link
-    },
-  },
-  {
-    id: 2,
-    title: 'Hari Surgical India',
-    description:
-      'Designed and optimized a professional website for a client using Hostinger AI Builder. Implemented SEO strategies, ensured responsive design, and handled web hosting & domain integration.',
-    image: '/harisurgical.png', 
-    tags: ['SEO', 'Hosting', 'AI Builder'],
-    links: {
-      live: 'https://harisurgicalindia.in/', 
-    },
-  },
-];
-
-
 const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
   const [activeFilter, setActiveFilter] = useState('all');
   const [filteredProjects, setFilteredProjects] = useState<Project[]>(projectsData);
@@ -212,11 +187,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
         </div>
 
         {/* Other / Client Projects */}
-        <div className="mt-16 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Other / Client Projects</h2>
-          <div className="w-16 h-1 bg-blue-500 mx-auto mb-8"></div>
-          {renderProjectCards(clientProjectsData)}
-        </div>
+        
       </div>
     </section>
   );

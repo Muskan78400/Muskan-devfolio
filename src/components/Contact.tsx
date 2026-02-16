@@ -71,19 +71,19 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
     {
       icon: <Mail size={20} />,
       label: 'Email',
-      value: 'vrindaparmar115@gmail.com',
-      link: 'mailto:vrindaparmar115@gmail.com'
+      value: 'muskansingal113@gmail.com',
+      link: 'mailto:muskansingal113@gmail.com'
     },
     {
       icon: <Phone size={20} />,
       label: 'Phone',
-      value: '+91 9138467720',
-      link: 'tel:+919138467720'
+      value: '+91 9466053075',
+      link: 'tel:+919466053075'
     },
     {
       icon: <MapPin size={20} />,
       label: 'Location',
-      value: 'Tosham Bye Pass, Bhiwani-127021, Haryana, India',
+      value: 'Chiranjeev colony, Bhiwani-127021, Haryana, India',
       link: null
     }
   ];
@@ -148,9 +148,9 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
                 <div className="mt-8">
                   <h4 className="text-lg font-medium mb-4">Follow Me</h4>
                   <div className="flex space-x-4">
-                    {[ { url: 'https://github.com/vrinda-parmar', icon: 'fab fa-github' },
-      { url: 'https://linkedin.com/in/vrinda-parmar', icon: 'fab fa-linkedin' },
-      { url: 'mailto:vrindaparmar115@gmail.com', icon: 'fas fa-envelope' },
+                    {[ { url: 'https://github.com/Muskan78400', icon: 'fab fa-github' },
+      { url: 'https://linkedin.com/in/muskan-aggarwal-29213a324', icon: 'fab fa-linkedin' },
+      { url: 'mailto:muskansingal113@gmail.com', icon: 'fas fa-envelope' },
       { url: '#', icon: 'fas fa-globe' },].map((link, index) => (
                       <a
                         key={index}
